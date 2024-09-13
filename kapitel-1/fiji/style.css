@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body {
+    background-image: url("./camille-minouflet-d7M5Xramf8g-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: 1920px 1080px;
+    background-attachment: fixed;
+    }
+    h1 {
+        color: rgb(19, 127, 234);
+        text-transform: uppercase;
+        padding: 10px;
+        border-radius: 5px;
+        text-shadow: 5px 5px 0 rgb(0, 0, 0);
+        font-size: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 700x;
+        margin-left: 325px;    
+    }
+    h2{
+        color: black;
+        text-transform: uppercase;
+margin-top: 0px;
+margin-left: 0px;
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 700x;
+        margin-left: 635px;  
+        
+    }
+    p{
+font-size: 25px;
+text-transform: uppercase;
+margin-top: 0px;
+margin-left: 0px;
+    
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        background-color: pink;
+        padding: 10px;
+        border-radius: 5px;
+        border:  2px solid #fff;
+        margin-left: 700px;
+    }
