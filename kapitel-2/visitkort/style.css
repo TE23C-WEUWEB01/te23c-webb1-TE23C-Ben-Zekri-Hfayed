@@ -1,0 +1,68 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-image: url('rodion-kutsaiev-8P-uQaTd8rw-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.visitkort {
+    width: 1000px;  
+    height: 600px; 
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+    text-align: center;
+    border-radius: 15px; 
+    position: relative;
+}
+
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px; 
+    margin-bottom: 20px;
+
+}
+
+
+p {
+    font-size: 24px; 
+    margin-bottom: 40px;
+}
+
+
+img {
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-top: -150px;
+    margin-right: 690px;
+}
+
+
+.address {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    text-align: left;
+}
+
+.address p {
+    font-size: 40px;
+    line-height: 1.5;
+}
