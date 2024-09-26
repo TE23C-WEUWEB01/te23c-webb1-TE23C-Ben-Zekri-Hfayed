@@ -1,0 +1,51 @@
+/* Enkel CSS-reset */
+@import url('https://fonts.googleapis.com/css2?family=Maiden+Orange&display=swap');
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body{
+background-image: url(./hannah-s-BYc1lXlotnY-unsplash.jpg);
+background-size: cover;
+background-attachment: fixed;
+}
+div{
+width: 700px;
+background-color: rgb(159, 125, 80);
+margin: auto;
+margin-top: 70px;
+border: 15px solid rgb(198, 142, 64);
+border-radius: 30px;
+padding: 50px;
+font-family: "Maiden Orange", serif;
+color: rgb(255, 255, 255);
+}
+h1{
+margin-bottom: 20px;
+font-size: 100px;
+}
+h2{
+    margin-bottom: 20px;
+    font-size: 100px;
+}
+img{
+    margin-bottom: 20px;
+    width: 300px;
+}
+ul{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    list-style-type: circle;
+}
+li{
+    
+}
+p{
+    margin-bottom: 10px;
+}
