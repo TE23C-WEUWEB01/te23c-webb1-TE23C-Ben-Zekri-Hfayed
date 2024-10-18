@@ -1,0 +1,35 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #3a0ca3
+} 
+div.sida{
+    border: solid #4cc9f0;
+    
+    width:700px;
+    margin-left: 400px;
+    
+}
+div.inlägg{
+    background-color: #4361ee
+    padding: 50px;
+    width: px;
+}
+img{
+    width: 600px;
+    border: solid blue;
+    border-width: 20px;
+    border-radius: 2px;
+}
+h1{
+font-size: 35px;
+color: antiquewhite;
+margin-left: 280px;
+
+}
+h2{
+    color: antiquewhite;
+
+}
+p{
+
+}
