@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Maiden+Orange&display=swap');
+html{
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+
+}
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+/* layout */
+body{
+    background-color: #8C60C9;
+}
+.container{
+    font-family: "Maiden Orange", serif;
+    width: 800px;
+    background-color: #E8DFF3;
+    margin: auto;
+    padding: 20px;
+}
+.bild{
+background-color: #5A5A5A;
+padding: 20px;
+}
+/* Rubrikerna */
+h1{
+    font-family: "Maiden Orange", serif;
+}
+h2{
+    font-family: "Maiden Orange", serif;
+}
+h3{
+    font-family: "Maiden Orange", serif;
+}
+h4{
+    font-family: "Maiden Orange", serif;
+}
+h5{
+    font-family: "Maiden Orange", serif;
+}
+h6{
+    font-family: "Maiden Orange", serif;
+}
+/* inside it */
+img{
+
+}
+p{
+    font-family: "Maiden Orange", serif;
+}
+a{}
