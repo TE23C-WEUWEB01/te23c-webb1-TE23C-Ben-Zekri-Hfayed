@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Iceland&family=Maiden+Orange&family=Oswald:wght@200..700&family=Yatra+One&display=swap');
+/* Enkel CSS-reset */
+   html {
+   box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+/* Overall body style */
+body {
+    background-color: #303030;
+    color: #fdf0d5;
+    font-family: "Allerta Stencil", sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Profile container */
+.profile-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.profile-photo {
+    width: 200px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid #fdf0d5;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 1.2em;
+    font-weight: normal;
+    color: #cccccc;
+}
+
+/* About section */
+.about-section {
+    background-color: #404040;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px 0;
+}
+
+.about-section h3 {
+    font-size: 1.5em;
+    color: #fdf0d5;
+}
+
+.about-section p {
+    font-size: 1em;
+    color: #dddddd;
+    line-height: 1.6;
+}
+
+/* Blog section */
+.blog-section {
+    width: 80%;
+    max-width: 900px; /* Wider max-width to fit three posts in a row */
+    margin: 20px 0;
+}
+
+.blog-section h6 {
+    font-size: 1.5em;
+    color: #fdf0d5;
+    text-align: center;
+}
+
+/* Flexbox container for posts */
+.posts-container {
+    display: flex;
+    gap: 20px; /* Space between posts */
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    justify-content: center; /* Centers the posts within the container */
+}
+
+.post {
+    background-color: #505050;
+    padding: 10px;
+    border-radius: 10px;
+    width: 250px; /* Fixed width to fit three posts in a row within 900px */
+    color: #fdf0d5;
+    text-align: center;
+}
+
+.post h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.post img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px 0;
+    border: 3px solid #fdf0d5;
+}
+
+.post p {
+    font-size: 1em;
+    color: #fdf0d5;
+    line-height: 1.6;
+}
