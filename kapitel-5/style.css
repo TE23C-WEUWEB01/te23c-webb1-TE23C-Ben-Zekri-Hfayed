@@ -11,8 +11,8 @@
 /* Body styling */
 body {
     font-family: "Funnel Display", sans-serif;
-    background-color: #f3f3f3;
-    color: #333;
+    background-color: #10002b;
+    color: #edf2f4;
     line-height: 1.6;
     padding: 20px;
 }
@@ -33,7 +33,7 @@ h1 {
     display: flex;
     justify-content: center;
     list-style: none;
-    background-color: #ddd;
+    background-color: #240046;
     padding: 10px;
     border-radius: 8px;
 }
@@ -45,7 +45,7 @@ h1 {
 .menu a {
     text-decoration: none;
     padding: 10px 20px;
-    background-color: #8dd6a7;
+    background-color: #004e89;
     color: #fff;
     border-radius: 5px;
     font-weight: bold;
@@ -53,11 +53,11 @@ h1 {
 }
 
 .menu a:hover {
-    background-color: #66c285;
+    background-color: #3c096c;
 }
 
 .menu .active {
-    background-color: #66c285;
+    background-color: #004e89;
 }
 
 /* Main content */
@@ -85,7 +85,7 @@ figure img {
 figcaption {
     margin-top: 10px;
     font-style: italic;
-    color: #555;
+    color: #edf2f4;
 }
 
 p {
