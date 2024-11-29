@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Funnel+Display:wght@300..800&family=Iceland&family=Maiden+Orange&family=Oswald:wght@200..700&family=Parkinsans:wght@300..800&family=Yatra+One&display=swap');
+/* General styling */
+body {
+    font-family: "Parkinsans", sans-serif;
+    margin: 0;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background-color: #8b0000;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Navigation menu */
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.menu li {
+    margin: 0 1rem;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/* Layout for the main content */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+/* Side images */
+.side-image {
+    max-width: 300px;
+    border: 5px solid #8b0000;
+    border-radius: 10px;
+    margin: 0;
+    
+}
+.side-image2 {
+    max-width: 300px;
+    border: 5px solid #8b0000;
+    border-radius: 10px;
+    margin: 0;
+    object-fit: cover;
+
+    
+}
+
+/* Center content */
+.center-content {
+    flex: 1;
+    text-align: center;
+    max-width: 600px;
+}
+
+.center-content img {
+    max-width: 100%;
+    border: 5px solid #8b0000;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #8b0000;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
