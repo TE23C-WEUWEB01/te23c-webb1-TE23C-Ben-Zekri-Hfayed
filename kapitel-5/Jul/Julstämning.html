@@ -24,5 +24,34 @@
     <footer>
         <p>God Jul och Gott Nytt År!</p>
     </footer>
+
+    <div class="login-form">
+        <input type="text" id="username" placeholder="Username">
+        <input type="password" id="password" placeholder="Password">
+        <button id="loginButton">Login</button>
+    </div>
+
+
+    <script>
+        // JavaScript to handle login validation
+        document.getElementById("loginButton").addEventListener("click", function() {
+            // Get the input values
+            const username = document.getElementById("username").value;
+            const password = document.getElementById("password").value;
+
+            // Define the correct username and password
+            const correctUsername = "HaffaBenZekri";
+            const correctPassword = "thepassword";
+
+            // Check if the entered username and password match
+            if (username === correctUsername && password === correctPassword) {
+                // Redirect to another page
+                window.location.href = "login.html";
+            } else {
+                // Show an alert if the login fails
+                alert("Get it right, you wrote 'something' wrong. I won't tell you what.");
+            }
+        });
+    </script>
 </body>
 </html>

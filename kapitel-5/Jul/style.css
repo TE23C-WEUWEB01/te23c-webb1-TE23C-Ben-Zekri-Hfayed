@@ -3,29 +3,25 @@
 body {
     font-family: "Parkinsans", sans-serif;
     margin: 0;
-    background-color: #f2f2f2;
+    background: url('./bilderJul/pure-css-snow-animation-940301224.gif') no-repeat center center;
+    background-size: cover; 
     color: #333;
 }
 
 /* Header styling */
 /* Header styling */
+/* Header styling */
 header {
-    background-color: #8b0000;
+   background-color: rgb(199, 1, 1);
     color: white;
-    padding: 1rem;
+    padding: 2rem;
     text-align: center;
-    position: relative; /* Allows positioning for the GIF */
+    height: 200px; /* Adjust as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-
-/* Header GIF styling */
-.header-gif {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0.5rem auto; /* Centers the GIF under the header text */
-    opacity: 1000%;
-}
-
 
 /* Navigation menu */
 .menu {
@@ -33,7 +29,7 @@ header {
     justify-content: center;
     list-style: none;
     padding: 0;
-    margin: 1rem 0;
+    margin-top: 1rem;
 }
 
 .menu li {
@@ -48,6 +44,7 @@ header {
 
 .menu a:hover {
     text-decoration: underline;
+    color: #8b0000;
 }
 
 /* Layout for the main content */
@@ -94,6 +91,9 @@ main {
     
 }
 
+p{
+color: white;
+}
 
 /* Footer */
 footer {
@@ -102,4 +102,26 @@ footer {
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
+}
+
+.login-form{
+    position: absolute;
+    top: 35px;
+    right: 10px;
+}
+
+.deletebutton{
+    position: absolute;
+    top: 450px;
+    
+    
+}
+h3{
+    position: absolute;
+    top: 280px;
+    font-size: 50px;
+}
+h2{
+    position: absolute;
+    top: 380px;
 }

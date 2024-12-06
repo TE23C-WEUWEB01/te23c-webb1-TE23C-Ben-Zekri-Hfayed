@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomtenissar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+
+        <div class="login-form">
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
+            <button id="loginButton">Logout</button>
+        </div>
+
+        <h3>You found the admin page!</h3>
+        <h2>Click this very button to destory all code for this website!</h2>
+
+        <div class="deletebutton">
+            <button id="destroybutton">Erase everything.</button>
+
+        </div>
+
+        <script>
+
+            document.getElementById("destroybutton").addEventListener("click", function () {
+                window.location.href = "https://www.youtube.com/watch?v=emL4LESttVo&ab_channel=BrainRotBob"; });
+
+        </script>
+
+
+        <script>
+            // JavaScript to handle login validation
+            document.getElementById("loginButton").addEventListener("click", function () {
+                // Get the input values
+                const username = document.getElementById("username").value;
+                const password = document.getElementById("password").value;
+
+                // Define the correct username and password
+                const correctUsername = "HaffaBenZekri";
+                const correctPassword = "thepassword";
+
+                // Check if the entered username and password match
+                if (username === correctUsername && password === correctPassword) {
+                    // Redirect to another page
+                    window.location.href = "Julstämning.html";
+                } else {
+                    // Show an alert if the login fails
+                    alert("Get it right, you wrote 'something' wrong. I won't tell you what.");
+                }
+            });
+        </script>
+</body>
+
+</html>
