@@ -31,6 +31,35 @@
     </section>
   </main>
 
+  <div class="fire-sparkle-container">
+    <!-- Sparkles will be dynamically added via JavaScript -->
+  </div>
+  
+  <script>
+    const sparkleContainer = document.querySelector('.fire-sparkle-container');
+    const sparkleCount = 10; // Number of sparkles
+  
+    for (let i = 0; i < sparkleCount; i++) {
+      const sparkle = document.createElement('div');
+      sparkle.classList.add('sparkle');
+  
+      // Randomize properties
+      const randomLeft = Math.random() * 100; // Random position between 0% and 100%
+      const randomDelay = Math.random() * 3; // Random delay between 0s and 3s
+      const randomDuration = 1.5 + Math.random() * 1.5; // Random duration between 1.5s and 3s
+  
+      // Apply styles
+      sparkle.style.left = `${randomLeft}%`;
+      sparkle.style.animationDelay = `${randomDelay}s`;
+      sparkle.style.animationDuration = `${randomDuration}s`;
+  
+      // Add sparkle to the container
+      sparkleContainer.appendChild(sparkle);
+    }
+  </script>
+  
+  
+
   <footer>
     <p>Crafted with precision and ❤️ | 2025</p>
   </footer>

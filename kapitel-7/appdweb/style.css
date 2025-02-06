@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+/* Reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Global Styles */
+body {
+    font-family: "Delius", serif;
+    line-height: 1.6;
+    background: #f4f4f4;
+    color: #333;
+    padding: 0;
+    background-image: url(./bilder/jungle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.kontainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background: rgb(9,126,0);
+    background: linear-gradient(90deg, rgba(9,126,0,1) 0%, rgba(0,192,64,1) 50%, rgba(0,179,20,1) 100%);
+    color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1rem;
+}
+
+/* Navigation */
+nav {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0.5rem 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2e7d32;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #4caf50;
+}
+
+/* Main Content */
+main {
+    float: left;
+    width: 70%;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+}
+
+article h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #2e7d32;
+}
+
+article img {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    width: 300px; /* Set the image's exact width */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(9,126,0);
+    background: linear-gradient(90deg, rgba(9,126,0,1) 0%, rgba(0,192,64,1) 50%, rgba(0,179,20,1) 100%);
+    padding: 10px;
+    border-radius: 3px;
+}
+
+
+/* Sidebar */
+aside {
+    float: right;
+    width: 25%;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+}
+
+aside h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: #2e7d32;
+}
+
+/* Footer */
+footer {
+    clear: both;
+    text-align: center;
+    background: rgb(9,126,0);
+    background: linear-gradient(90deg, rgba(9,126,0,1) 0%, rgba(0,192,64,1) 50%, rgba(0,179,20,1) 100%);
+    color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    main, aside {
+        float: none;
+        width: 100%;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+}
