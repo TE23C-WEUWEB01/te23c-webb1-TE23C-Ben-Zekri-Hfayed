@@ -112,6 +112,9 @@ article img {
     border-radius: 3px;
 }
 
+article img:hover {   
+}
+
 
 /* Sidebar */
 aside {
