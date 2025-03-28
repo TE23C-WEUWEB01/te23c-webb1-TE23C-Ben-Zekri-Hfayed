@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webbens Teknik</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>⚙️ Webbens Teknik</h1>
+        <nav>
+            <ul>
+                <li><a href="sida1.html">🏠 Historia</a></li>
+                <li><a href="sida2.html" class="active">⚙️ Teknik</a></li>
+                <li><a href="sida3.html">🔗 Struktur</a></li>
+                <li><a href="sida4.html">🔒 Säkerhet</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="card">
+            <h2>🛰️ Vad är protokoll?</h2>
+            <p>Protokoll är regler för hur data skickas och tas emot på internet. Exempel är:</p>
+            <ul>
+                <li><strong>HTTP</strong> – Laddar webbsidor.</li>
+                <li><strong>HTTPS</strong> – Säker version av HTTP.</li>
+                <li><strong>TCP/IP</strong> – Styr hur data skickas mellan enheter.</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>📡 Hur skickas data?</h2>
+            <p>Data skickas i små paket genom nätverket. Paketen tar den snabbaste vägen och sätts ihop vid mottagaren.</p>
+            <figure>
+                <img src="./bilder/Packets-1478601157.png" alt="Datapakets väg">
+                <figcaption>Data skickas i paket genom internet.</figcaption>
+            </figure>
+        </section>
+
+        <section class="card">
+            <h2>🖥️ Hur har datorer adresser?</h2>
+            <p>Varje enhet på internet har en unik IP-adress, t.ex.:</p>
+            <ul>
+                <li><strong>IPv4:</strong> 192.168.1.1</li>
+                <li><strong>IPv6:</strong> 2001:db8::ff00:42:8329</li>
+            </ul>
+            <p>Domännamn (t.ex. <strong>google.com</strong>) används istället för IP-adresser.</p>
+        </section>
+
+        <section class="card">
+            <h2>🔒 Vad är säkerhet?</h2>
+            <p>Säkerhet handlar om att skydda data från hackare, virus och intrång. Viktiga tekniker inkluderar:</p>
+            <ul>
+                <li>🔐 <strong>Kryptering</strong> – Skyddar data från obehörig åtkomst.</li>
+                <li>🛡️ <strong>Brandväggar</strong> – Blockerar farlig trafik.</li>
+                <li>📝 <strong>Autentisering</strong> – Användarnamn, lösenord och 2FA.</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>🔄 Vad är klient och server?</h2>
+            <p>Webben fungerar genom en **klient-server-modell**:</p>
+            <ul>
+                <li>🖥️ <strong>Server:</strong> Lagrar och hanterar data, t.ex. en webbserver.</li>
+                <li>💻 <strong>Klient:</strong> Begär data från servern, t.ex. en webbläsare.</li>
+            </ul>
+            <p>När du besöker en webbsida skickar klienten en begäran till servern, som svarar med webbsidan.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Webbens Teknik ⚡</p>
+    </footer>
+</body>
+</html>
